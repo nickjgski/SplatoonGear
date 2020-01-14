@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Splatoon Gear</string>
+    <string name="weapons">Weapons</string>
+    <string name="headgear">Headgear</string>
+    <string name="clothing">Clothing</string>
+    <string name="shoes">Shoes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="filter">Filter:</string>
+    <string name="recycler_title">Title</string>
+    <string name="recycler_desc">Description</string>
+    <string name="gear_photo">Gear Photo</string>
+    <string name="picture_base_url">https://cdn.wikimg.net/en/splatoonwiki/images/</string>
+    <string-array name="weapon_sort_options">
+        <item>Name</item>
+        <item>Sub</item>
+        <item>Special</item>
+        <item>Class</item>
+    </string-array>
+    <string-array name="weapon_filter_options">
+        <item>None</item>
+        <item>Brella</item>
+        <item>Charger</item>
+        <item>Dualie</item>
+        <item>Roller</item>
+        <item>Shooter</item>
+        <item>Slosher</item>
+        <item>Splatling</item>
+    </string-array>
+    <string-array name="wearable_sort_options">
+        <item>Name</item>
+        <item>Rarity</item>
+        <item>Ability</item>
+    </string-array>
+    <string-array name="headgear_filter_options">
+        <item>None</item>
+        <item>Bomb Defense Up DX</item>
+        <item>Comeback</item>
+        <item>Ink Recovery Up</item>
+        <item>Ink Resistance Up</item>
+        <item>Ink Saver (Main)</item>
+        <item>Ink Saver (Sub)</item>
+        <item>Last-Ditch Effort</item>
+        <item>Main Power Up</item>
+        <item>Opening Gambit</item>
+        <item>Quick Respawn</item>
+        <item>Quick Super Jump</item>
+        <item>Run Speed Up</item>
+        <item>Special Charge Up</item>
+        <item>Special Power Up</item>
+        <item>Special Saver</item>
+        <item>Sub Power Up</item>
+        <item>Swim Speed Up</item>
+        <item>Tenacity</item>
+    </string-array>
+    <string-array name="clothing_filter_options">
+        <item>None</item>
+        <item>Ability Doubler</item>
+        <item>Bomb Defense Up DX</item>
+        <item>Haunt</item>
+        <item>Ink Recovery Up</item>
+        <item>Ink Resistance Up</item>
+        <item>Ink Saver (Main)</item>
+        <item>Ink Saver (Sub)</item>
+        <item>Main Power Up</item>
+        <item>Ninja Squid</item>
+        <item>Quick Respawn</item>
+        <item>Quick Super Jump</item>
+        <item>Respawn Punisher</item>
+        <item>Run Speed Up</item>
+        <item>Special Charge Up</item>
+        <item>Special Power Up</item>
+        <item>Special Saver</item>
+        <item>Sub Power Up</item>
+        <item>Swim Speed Up</item>
+        <item>Thermal Ink</item>
+    </string-array>
+    <string-array name="shoes_filter_options">
+        <item>None</item>
+        <item>Bomb Defense Up DX</item>
+        <item>Drop Roller</item>
+        <item>Ink Recovery Up</item>
+        <item>Ink Resistance Up</item>
+        <item>Ink Saver (Main)</item>
+        <item>Ink Saver (Sub)</item>
+        <item>Main Power Up</item>
+        <item>Object Shredder</item>
+        <item>Quick Respawn</item>
+        <item>Quick Super Jump</item>
+        <item>Run Speed Up</item>
+        <item>Special Charge Up</item>
+        <item>Special Power Up</item>
+        <item>Special Saver</item>
+        <item>Stealth Jump</item>
+        <item>Sub Power Up</item>
+        <item>Swim Speed Up</item>
+    </string-array>
+</resources>

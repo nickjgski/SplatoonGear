@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weaponFragment">
+
+    <fragment
+        android:id="@+id/weaponFragment"
+        android:name="com.nickjgski.splatoongear.WeaponFragment"
+        android:label="fragment_weapon"
+        tools:layout="@layout/fragment_weapon" >
+        <action
+            android:id="@+id/action_weaponFragment_to_headgearFragment"
+            app:destination="@id/headgearFragment" />
+        <action
+            android:id="@+id/action_weaponFragment_to_clothingFragment"
+            app:destination="@id/clothingFragment" />
+        <action
+            android:id="@+id/action_weaponFragment_to_shoesFragment"
+            app:destination="@id/shoesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/headgearFragment"
+        android:name="com.nickjgski.splatoongear.HeadgearFragment"
+        android:label="fragment_headgear"
+        tools:layout="@layout/fragment_headgear" >
+        <action
+            android:id="@+id/action_headgearFragment_to_clothingFragment"
+            app:destination="@id/clothingFragment" />
+        <action
+            android:id="@+id/action_headgearFragment_to_weaponFragment"
+            app:destination="@id/weaponFragment" />
+        <action
+            android:id="@+id/action_headgearFragment_to_shoesFragment"
+            app:destination="@id/shoesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clothingFragment"
+        android:name="com.nickjgski.splatoongear.ClothingFragment"
+        android:label="fragment_clothing"
+        tools:layout="@layout/fragment_clothing" >
+        <action
+            android:id="@+id/action_clothingFragment_to_headgearFragment"
+            app:destination="@id/headgearFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_weaponFragment"
+            app:destination="@id/weaponFragment" />
+        <action
+            android:id="@+id/action_clothingFragment_to_shoesFragment"
+            app:destination="@id/shoesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoesFragment"
+        android:name="com.nickjgski.splatoongear.ShoesFragment"
+        android:label="fragment_shoes"
+        tools:layout="@layout/fragment_shoes" >
+        <action
+            android:id="@+id/action_shoesFragment_to_weaponFragment"
+            app:destination="@id/weaponFragment" />
+        <action
+            android:id="@+id/action_shoesFragment_to_clothingFragment"
+            app:destination="@id/clothingFragment" />
+        <action
+            android:id="@+id/action_shoesFragment_to_headgearFragment"
+            app:destination="@id/headgearFragment" />
+    </fragment>
+</navigation>
